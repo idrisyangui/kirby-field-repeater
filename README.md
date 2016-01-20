@@ -46,7 +46,7 @@ steps:
 				options:
 					left: Gauche
 					right: Droite
-				
+
 ```
 
 **Case 2 in a structure field**
@@ -56,7 +56,7 @@ fieldposition: structure
 ```
 
 full configuration
-  
+
 ```
 items:
 						label: Eléments

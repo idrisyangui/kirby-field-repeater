@@ -1,39 +1,6 @@
-<?php
-    // $element = new Brick('div');
-
-    // $element->addClass('field');
-    // $element->addClass('field-grid-item');
-
-    // if($this->error) {
-    //   $element->addClass('field-with-error');
-    // }
-
-    // if($this->width) {
-    //   $element->addClass('field-grid-item-' . str_replace('/', '-', $this->width));
-    // }
-
-    // if($this->readonly) {
-    //   $element->addClass('field-is-readonly');
-    // }
-
-    // if($this->disabled) {
-    //   $element->addClass('field-is-disabled');
-    // }
-
-    // if($this->icon) {
-    //   $element->addClass('field-with-icon');
-    // }
-
-    // $element
-    // 	->append($this->label())
-    //   ->append($this->content())
-    //   ->append($this->help());
-
-?>
 <div class="repeater">
 
 	<?php echo $field->headline() ?>
-
 
 	<!-- <input class="hidden" type="text" v-model="values" value="<?php echo a::json($field->values()); ?>">
 	<input class="hidden" type="text" v-model="blueprint" value="<?php echo a::json($field->values()); ?>">
@@ -80,8 +47,6 @@
  -->
 
 <?php foreach ($field->fields() as $f => $s ) { $blueprint[$f] = ""; }?>
-
-
 
 
 <!-- component template -->
