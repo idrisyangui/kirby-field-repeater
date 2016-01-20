@@ -1,5 +1,8 @@
 # kirby-field-repeater
 
+___** alpha version **___
+
+
 Repeater is a field plugin for Kirby
 
 Reapeter come with basic fields :
@@ -7,6 +10,8 @@ Reapeter come with basic fields :
   - textarea
   - select
   - radio
+
+This field work in a structure field or in a normal position. This field can be used for simple need of repeating, or in a structure field if you need another level of repeating.
 
 ## Installation and update
 
@@ -95,3 +100,7 @@ items:
 									true: Yes
 									false: No
 ```
+
+# Demo 
+
+![Demo](http://cl.ly/0d2M050T1e0v/download/Screen%20Recording%202016-01-20%20at%2010.49%20PM.gif)  
