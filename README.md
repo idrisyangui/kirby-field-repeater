@@ -8,6 +8,8 @@ Reapeter come with basic fields :
   - select
   - radio
 
+This field work in a structure field or in a normal position. This field can be used for simple need of repeating, or in a structure field if you need another level of repeating.
+
 ## Installation and update
 
 Copy the files to site/fields/repeater/.
