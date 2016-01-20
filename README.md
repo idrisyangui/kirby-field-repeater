@@ -100,3 +100,7 @@ items:
 									true: Yes
 									false: No
 ```
+
+# Demo 
+
+![Demo](http://cl.ly/0d2M050T1e0v/download/Screen%20Recording%202016-01-20%20at%2010.49%20PM.gif)  
