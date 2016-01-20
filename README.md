@@ -1,6 +1,6 @@
 # kirby-field-repeater
 
-Repeater is field plugin for Kirby
+Repeater is a field plugin for Kirby
 
 Reapeter come with basic fields :
   - text
@@ -8,7 +8,7 @@ Reapeter come with basic fields :
   - select
   - radio
 
-## Instalation and update
+## Installation and update
 
 Copy the files to site/fields/repeater/.
 
@@ -17,7 +17,7 @@ Copy the files to site/fields/repeater/.
 
 Use it in your blueprint:
 
-Case 1 in normal way 
+**Case 1 in normal way**
 
 ```
 fieldposition: non_structure
@@ -49,7 +49,7 @@ steps:
 				
 ```
 
-Case 2 in a structure field
+**Case 2 in a structure field**
 
 ```
 fieldposition: structure
@@ -94,4 +94,4 @@ items:
 								options:
 									true: Yes
 									false: No
-	```
+```
