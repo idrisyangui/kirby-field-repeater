@@ -1,5 +1,8 @@
 # kirby-field-repeater
 
+___** alpha version **___
+
+
 Repeater is a field plugin for Kirby
 
 Reapeter come with basic fields :
