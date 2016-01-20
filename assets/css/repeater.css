@@ -1,0 +1,74 @@
+.repetear {
+	font-size: 0.9em;
+}
+
+pre	{
+	width: 300px;
+	overflow: scroll;
+}
+.repeater-entry{
+
+}
+.repeater-entry-content{
+	display: inline-block;
+	float: left;
+	padding: 1em 1.5em;
+	width: 95%;
+}
+
+.repeater-entry-options{
+	display: inline-block;
+	float: left;
+	width: 5%;
+	padding: 2em 0;
+	font-size: 1.2em;
+}
+
+.repeater-entry-options{
+	display: inline-block;
+	opacity: 0;
+	float: left;
+	width: 5%;
+	font-size: 1em;
+	transition: all 0.5s;
+}
+.repeater-entry:hover .repeater-entry-options{
+	opacity: 1;
+}
+	.repeater-btn{
+		margin-bottom: 1em;
+	}
+	.repeater-btn:hover{
+		color: #8dae28;
+	}
+	.repeater-order-button{
+		cursor: move;
+	}
+
+	.repeater-delete-button:hover{
+		color: #b3000a;
+	}
+
+
+.repeater-entry-separator{
+	width: 80%;
+	margin: 0 10%;
+	height: 1px;
+	background: #ddd;
+	border: 0;
+	display: inline-block;
+	text-align: center;
+}
+	.repeater-add-button{
+		opacity: 0;
+		transform: translateY(-0.6em);
+		transition: all 0.5s;
+	}
+
+	.repeater-entry:hover  .repeater-add-button{
+		opacity: 1;
+	}
+
+.repeater-entry:last-child .repeater-entry-separator{
+	height: 0;
+}
